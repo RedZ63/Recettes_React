@@ -1,0 +1,33 @@
+input {
+    width: 20vw;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.input {
+    background-color: whitesmoke;
+    border: 0, 5 solid black;
+    height: 100%;
+    font-size: 1.25rem;
+    width: 50%;
+    margin-left: 25vw;
+    margin-bottom: 3rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.affichage {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+    overflow: auto;
+    background-color: beige;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}

@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 import "../styles/navbar.css";
 import Logo from './Logo';
-import Searchbar from './Searchbar_show';
 
 class Navbar extends Component {
   state = { clicked: false };
@@ -14,7 +13,6 @@ class Navbar extends Component {
       <>
         <nav>
           <Logo/>
-          <Searchbar/>
           <div>
             <ul
               id="navbar"
