@@ -1,0 +1,50 @@
+
+.mainContainer{
+    text-align: center;
+}
+.titrePage{
+    color:rgb(243, 95, 95);
+    margin-top: 10vh;
+}
+
+.titreArticle{
+    color:rgb(243, 95, 95);
+    text-decoration: underline;
+    margin-bottom:5vh;
+    margin-top:20vh
+}
+
+.container{
+    width: 80vw;
+    display:block;
+    margin:15vh 5vw 20vh 10vw;
+}
+
+.article1{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5vh;
+}
+
+.image1{
+    width:40vw;
+    height:55vh;
+    margin-top:10vh;
+}
+
+.list{
+    width: 40vw;
+    text-align: left;
+    margin-top:10vh;
+}
+
+.list:hover{
+    transform: scale(1.1);
+}
+
+.article2{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5vh;
+    justify-content: row-reverse;
+}
